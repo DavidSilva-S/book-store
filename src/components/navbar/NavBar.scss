@@ -1,0 +1,154 @@
+$nav-background: #fff;
+$first-nav-background: #fff;
+$second-nav-background: #003f62;
+
+:root {
+  --nav-background: $nav-background;
+}
+
+.nav-bar {
+  width: 100%;
+  height: auto;
+  background-color: $nav-background !important;
+}
+
+.nav-bar__container-1 {
+  background-color: $first-nav-background;
+  color: black;
+  min-height: 9%;
+  height: 10%;
+  width: 100%;
+  padding: 4rem 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar__container-1 {
+  div {
+    cursor: pointer;
+  }
+}
+
+.nav-bar__container-1 {
+  .nav-bar__second-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+.nav-bar__container-1 {
+  .nav-bar__second-container .icon {
+    width: 8rem;
+    height: 4rem;
+  }
+}
+
+.nav-bar__container-2 {
+  width: 100%;
+  height: 100px;
+  background-color: $second-nav-background;
+  padding: 4rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo{
+    width: 30rem;
+    cursor: pointer;
+  }
+
+  .nav-bar__first-container-2 {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    width: 50%;
+
+    .input-wrapper{
+      position: relative;
+      width: 100%;
+      min-height: 50px;
+      gap: 20px;
+    }
+
+    .input-wrapper > input{
+      width: 60rem;
+      min-height: inherit;
+      border: none;
+      outline: none;
+    }
+
+    .input-wrapper input[type="text"]{
+      background-color: #fff;
+      border-radius: 4rem 0px 0px 4rem;
+      padding: 0px 25% 0px 20px;
+      width: 70%;
+      &::placeholder{
+        color: black;
+      }
+    }
+
+    .input-wrapper input[type="button"]{
+      position: absolute;
+      left: 50%;
+      background-color: orange;
+      cursor: pointer;
+      width: 30%;
+      border-radius: 4rem;
+      font-size: 4rem;
+    }
+
+  }
+
+  .nav-bar__second-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4rem;
+
+    .icons-container {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: #fff;
+      gap: 3rem;
+     
+      .icons-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .circle-amount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        background-color: orange;
+        color: white;
+        font-size: 3rem;
+      }
+    
+    }
+
+  }
+
+}
+
+.nav-bar__container-3{
+  display: flex;
+
+
+  .nav-bar__first-container-3{
+    width: 80%;
+    display: flex;
+  }
+
+  .nav-bar__second-container-3{
+    width: 20%;
+  }
+
+}
