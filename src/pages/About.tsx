@@ -1,14 +1,13 @@
 import React from 'react';
 
-
 // import { Container } from './styles';
 
-const home: React.FunctionComponent = () => {
+const About: React.FC = () => {
   return (
-    <> 
-      <h1>Home</h1>
+    <>  
+        <h1>About</h1>
     </>
   );
 }
 
-export default home;
+export default About;

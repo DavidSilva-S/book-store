@@ -74,13 +74,13 @@ const NavBar: React.FunctionComponent = () => {
 
         <div className="nav-bar__container-3">
           <div className="nav-bar__first-container-3">
-            <DrobDown width="10" color="#EDA415" texto="Browser categories" options={[]} />
+            <DrobDown width={50} hasBorder={false} bg_color="#EDA415" ft_color="#fff" texto="Browser categories" options={options} />
             <div style={{ display: "flex" }}>
-              <DrobDown width="20" color="" texto="Home" options={options} />
-              <DrobDown width="20" color="" texto="Catalog" options={options} />
-              <DrobDown width="20" color="" texto="Blog" options={[]} />
-              <DrobDown width="20" color="" texto="Pages" options={options} />
-              <DrobDown width="20" color="" texto="About us" options={[]} />
+              <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="Home" options={options} />
+              <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="Catalog" options={options} />
+              <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="Blog" options={[]} />
+              <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="Pages" options={options} />
+              <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="About us" options={[]} />
             </div>
           </div>
           <div className="nav-bar__second-container-3">
