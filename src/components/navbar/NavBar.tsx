@@ -40,7 +40,7 @@ const NavBar: React.FunctionComponent = () => {
           <div className="nav-bar__first-container-2">
             <img className="logo" src={Logo} alt="company-logo" />
             <div className="input-wrapper">
-              <input type="text" />
+              <input className="input-search" type="text" />
               <input type="button" value="search" />
             </div>
           </div>
@@ -49,7 +49,7 @@ const NavBar: React.FunctionComponent = () => {
               <div className="icons-wrapper">
                 <AiOutlineUser />
               </div>
-              <span>Sign in</span>
+              <span>Sign up</span>
             </div>
             <div className="icons-container">
               <div className="icons-wrapper">
@@ -74,8 +74,8 @@ const NavBar: React.FunctionComponent = () => {
 
         <div className="nav-bar__container-3">
           <div className="nav-bar__first-container-3">
-            <DrobDown width={50} hasBorder={false} bg_color="#EDA415" ft_color="#fff" texto="Browser categories" options={options} />
-            <div style={{ display: "flex" }}>
+            <DrobDown width={60} hasBorder={false} bg_color="#EDA415" ft_color="#fff" texto="Browser categories" options={options} />
+            <div style={{ display: "flex", alignItems: "center" }}>
               <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="Home" options={options} />
               <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="Catalog" options={options} />
               <DrobDown width={30} hasBorder={true} bg_color="" ft_color="#292D32" texto="Blog" options={[]} />

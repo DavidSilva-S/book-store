@@ -19,8 +19,10 @@ const DrobDown: React.FunctionComponent<Dropdown> = ({ width, texto, options, bg
                 backgroundColor: bg_color ? `${bg_color}` : 'transparent',
             }}>
                 <div className='dropdown-nav__icons'>
-                    <p className='dropdown-text' style={{ color: `${ft_color}`, borderBottom: `${hasBorder ? "1px solid rgba(0, 0, 0, 0.2)" : "none" }` }}>{texto}</p>
-                    {options.length === 0 ? "" : <SlArrowDown style={{ color: `${ft_color}`, width: `${width}`}} />}
+                    <p className='dropdown-text' style={{ color: `${ft_color}`}}>
+                        <span>{texto}</span>
+                    </p>
+                    {options.length === 0 ? "" : <SlArrowDown style={{ color: `${ft_color}`, width: `${width}` }} />}
                 </div>
             </div>
         </>

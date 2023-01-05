@@ -1,7 +1,7 @@
 .card {
     width: 200px;
     height: 20%;
-    border: 1px solid gray;
+    border: 1px solid rgba($color: #B6B6B6, $alpha: 1.0);
     border-radius: 2rem;
     cursor: pointer;
     display: flex;
@@ -27,7 +27,6 @@
 }
 
 .container-card {
-    margin: 1% 20%;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -53,7 +52,6 @@
     font-size: 2rem;
     color: #ACACAC;
 }
-
 
 .card .product-image {
     align-self: center;

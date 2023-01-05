@@ -1,5 +1,5 @@
 import React from 'react';
-import { products } from '../../mocks/products';
+import { products } from '../../../mocks/products';
 import './Gridproducts.scss'
 import { RiStarSFill } from "react-icons/ri"
 import { AiOutlineHeart } from "react-icons/ai"

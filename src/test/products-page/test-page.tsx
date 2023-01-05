@@ -1,10 +1,10 @@
 import React from 'react';
-import GridProducts from '../components/Gridproducts';
+import GridProducts from '../components/Gridproducts/Gridproducts';
+import SideBarFilter from '../components/sideBarFilter/sideBarFilter';
 
 const Test: React.FC = () => {
   return (
     <div style={{
-      margin: '0 auto',
       minHeight: '100vmin',
     }}>
       <h1 style={{
@@ -20,7 +20,9 @@ const Test: React.FC = () => {
       }}>
         {/* Place yout teste component bellow */}
 
-        <GridProducts></GridProducts>
+        <SideBarFilter categoriesName='Categories' />
+
+        {/* <GridProducts /> */}
       </div>
     </div>
   )

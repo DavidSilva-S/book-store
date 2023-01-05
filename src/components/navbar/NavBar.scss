@@ -54,7 +54,7 @@ $second-nav-background: #003f62;
   align-items: center;
   justify-content: space-between;
 
-  .logo{
+  .logo {
     width: 30rem;
     cursor: pointer;
   }
@@ -65,32 +65,33 @@ $second-nav-background: #003f62;
     gap: 15rem;
     width: 50%;
 
-    .input-wrapper{
+    .input-wrapper {
       position: relative;
-      width: 80%;
+      width: 60%;
       max-width: 89%;
       min-height: 50px;
       gap: 20px;
     }
 
-    .input-wrapper > input{
+    .input-wrapper > input {
       width: 60rem;
       min-height: inherit;
       border: none;
       outline: none;
     }
 
-    .input-wrapper input[type="text"]{
+    .input-wrapper input[type="text"] {
       background-color: #fff;
       border-radius: 4rem 0px 0px 4rem;
       padding: 0px 25% 0px 20px;
       width: 70%;
-      &::placeholder{
-        color: #292D32;
-      }
     }
 
-    .input-wrapper input[type="button"]{
+    .input-search::placeholder{
+      color: #003f62;
+    }
+
+    .input-wrapper input[type="button"] {
       position: absolute;
       left: 50%;
       background-color: orange;
@@ -98,7 +99,8 @@ $second-nav-background: #003f62;
       cursor: pointer;
       width: 30%;
       border-radius: 4rem;
-      font-size: 3rem;
+      font-size: 4rem;
+      font-weight: 700;
     }
 
   }
@@ -115,14 +117,14 @@ $second-nav-background: #003f62;
       cursor: pointer;
       color: #fff;
       gap: 3rem;
-     
+
       .icons-wrapper {
         display: flex;
         align-items: center;
         gap: 1rem;
       }
 
-      .circle-amount{
+      .circle-amount {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -133,27 +135,28 @@ $second-nav-background: #003f62;
         color: white;
         font-size: 3rem;
       }
-    
+
     }
 
   }
 
 }
 
-.nav-bar__container-3{
+.nav-bar__container-3 {
   display: flex;
+  margin: 0 6%;
+  min-height: 50px;
 
-
-  .nav-bar__first-container-3{
+  .nav-bar__first-container-3 {
     width: 80%;
     display: flex;
   }
 
-  .nav-bar__second-container-3{
+  .nav-bar__second-container-3 {
     width: 20%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     color: #003f62;
     font-weight: 700;
     font-size: 3rem;

@@ -8,6 +8,7 @@ import Error404 from './pages/Error-404'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Test from './test/products-page/test-page'
+import Products from './pages/Products'
 
 const router = createBrowserRouter([
   {
@@ -20,11 +21,17 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
+        path: "products",
+        element: <Products /> 
+      },
+      {
         path: "about",
         element: <About />,
       }
     ],
   },
+
+
   {
     path: "/test",
     element: <Test/>
